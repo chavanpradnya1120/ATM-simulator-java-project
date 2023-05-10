@@ -30,7 +30,7 @@ public class MiniStatement extends JFrame {
 
         try{
             Conn c=new Conn();
-           /*Resultset rs= (Resultset) c.s.executeQuery("select * from login where pin='"+pinNumber+"'" );*/
+           //Resultset rs= (Resultset) c.s.executeQuery("select * from login where pin='"+pinNumber+"'" );*/
 
             connection= DriverManager.getConnection("jdbc:mysql:///bankmanagement","root","9421521270");
 
